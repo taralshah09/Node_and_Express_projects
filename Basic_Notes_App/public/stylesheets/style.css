@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #222;
+}
+
+.container .form {
+  height: 40%;
+  width: 100%;
+}
+.container .form form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  height: 100%;
+  gap: 5px;
+  background: #222;
+}
+.container .form form input {
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background: #444;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.container .form form textarea {
+  height: 100%;
+  padding: 10px;
+  resize: none;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background: #444;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.container .form form button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background: blueviolet;
+  color: white;
+  width: 100px;
+}
+
+.container .tasks {
+  height: 60%;
+  background: #222;
+  width: 100%;
+  padding: 15px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.container .tasks h2 {
+  color: white;
+}
+
+.container .task {
+  width: 300px;
+  height: 100px;
+  overflow-y: auto;
+  background: #444;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10px 15px;
+  gap: 5px;
+}
+
+.container .task a {
+  color: rgb(54, 95, 246);
+  text-decoration: none;
+}
+.file-details-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.file-details-container a {
+  text-decoration: none;
+  color: rgb(54, 95, 246);
+}
+
+.file-details {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 15px;
+}
+
+.file-details h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.file-details p{
+  font-size: 18px;
+  font-weight: 300;
+}
